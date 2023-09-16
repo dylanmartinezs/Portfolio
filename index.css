@@ -18,6 +18,9 @@
   padding-right: var(--dl-space-space-unitandahalfunit);
   padding-bottom: var(--dl-space-space-triplequarterunit);
 }
+.marquee-container[style] {
+  max-width: 100% !important;
+}
 .primary-pink-button-button:hover {
   cursor: pointer;
   transform: scale(1.02);
